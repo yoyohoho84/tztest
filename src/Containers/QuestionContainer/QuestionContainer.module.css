@@ -1,0 +1,123 @@
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper *{
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.mainGrid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 960px;
+    height: 560px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    align-items: center;
+    padding: 80px 0 0 0;
+}
+.mainGrid h1 {
+    width: 560px;
+    text-align: center;
+}
+.btn{
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    border: 1px solid #3a76a3;
+    background-color: white;
+    color: #3a76a3;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #f2f2f2;
+}
+.activeBtn{
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    /*border: 1px solid #3a76a3;*/
+    background-color: #3a76a3;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.redBtn{
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    /*border: 1px solid #3a76a3;*/
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.redBtn:hover{
+    background-color: red;
+}
+.btnGrid{
+    padding: 0 0 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.grid{
+    padding: 0 0 10px 0;
+}
+.acceptBtn{
+    margin: 50px 0 0 0;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    background-color: #b9e0ed;
+    color: white;
+    font-size: 20px;
+}
+.acceptBtnActive{
+    margin: 50px 0 0 0;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #8fbe83;
+}
+.redAccept{
+    margin: 50px 0 0 0;
+    border-radius: 10px;
+    height: 50px;
+    width: 150px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.tips {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: content-box;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #add9da;
+}
+.tips p {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 10px 0 10px;
+}
